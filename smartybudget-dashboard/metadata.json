@@ -1,0 +1,8 @@
+{
+  "name": "SmartyBudget Dashboard",
+  "description": "A comprehensive and interactive budgeting dashboard to help you manage your finances. Track income, expenses, bills, savings, and debt with insightful charts and customizable categories.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
