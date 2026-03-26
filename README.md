@@ -1,80 +1,85 @@
 <div align="center">
 
-# 💸 Smart Budget Planner
-
-### *Spend with clarity. Save with purpose. Plan with confidence.*
-
-A beautifully organized budget planning system designed to help users track income, manage expenses, control overspending, build savings habits, and understand their financial flow at a glance.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=Smart%20Budget%20Planner&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Spend%20with%20clarity.%20Save%20with%20purpose.%20Plan%20with%20confidence.&descSize=16&descAlignY=58&descColor=e0f2fe" />
 
 <br/>
 
-![Repo Size](https://img.shields.io/github/repo-size/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
-![License](https://img.shields.io/github/license/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
-![Language](https://img.shields.io/github/languages/top/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+[![GitHub Stars](https://img.shields.io/github/stars/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&logo=github&color=0ea5e9&logoColor=white&labelColor=0f172a)](https://github.com/RishvinReddy/Smart-Budget-Planner/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&logo=github&color=6366f1&logoColor=white&labelColor=0f172a)](https://github.com/RishvinReddy/Smart-Budget-Planner/network)
+[![GitHub Issues](https://img.shields.io/github/issues/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&logo=github&color=f43f5e&logoColor=white&labelColor=0f172a)](https://github.com/RishvinReddy/Smart-Budget-Planner/issues)
+[![Repo Size](https://img.shields.io/github/repo-size/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&color=22c55e&logoColor=white&labelColor=0f172a)](https://github.com/RishvinReddy/Smart-Budget-Planner)
+[![License](https://img.shields.io/github/license/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&color=f59e0b&logoColor=white&labelColor=0f172a)](LICENSE)
+[![Top Language](https://img.shields.io/github/languages/top/RishvinReddy/Smart-Budget-Planner?style=for-the-badge&color=a855f7&logoColor=white&labelColor=0f172a)](https://github.com/RishvinReddy/Smart-Budget-Planner)
 
 <br/>
 
-<a href="https://github.com/RishvinReddy/Smart-Budget-Planner">
-  <img src="https://img.shields.io/badge/View%20Source-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://your-live-demo-link.com">
-  <img src="https://img.shields.io/badge/Live%20Demo-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
-  <img src="https://img.shields.io/badge/Report%20Bug-ef4444?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
-  <img src="https://img.shields.io/badge/Request%20Feature-22c55e?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+[![View Source](https://img.shields.io/badge/View%20Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishvinReddy/Smart-Budget-Planner)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-0EA5E9?style=for-the-badge&logoColor=white)](https://your-live-demo-link.com)
+[![Report Bug](https://img.shields.io/badge/🐛%20Report%20Bug-ef4444?style=for-the-badge&logoColor=white)](https://github.com/RishvinReddy/Smart-Budget-Planner/issues)
+[![Request Feature](https://img.shields.io/badge/✨%20Request%20Feature-22c55e?style=for-the-badge&logoColor=white)](https://github.com/RishvinReddy/Smart-Budget-Planner/issues)
 
 </div>
 
 ---
 
-## 🌟 Project Vision
+## 📖 Table of Contents
 
-**Smart Budget Planner** is built for people who want a cleaner, smarter, and more visually understandable way to manage personal finances.
+<details>
+<summary>Click to expand</summary>
 
-Instead of guessing where money goes, this project helps users:
-- understand income and expenses clearly,
-- assign spending limits,
-- monitor savings progress,
-- spot unnecessary spending,
-- and improve financial discipline through visual planning.
+- [🌟 About the Project](#-about-the-project)
+- [✨ Key Features](#-key-features)
+- [🖼️ Screenshots](#%EF%B8%8F-screenshots)
+- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
+- [🧩 Application Flow](#-application-flow)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [📘 Usage Guide](#-usage-guide)
+- [📊 Budget Example](#-budget-example)
+- [🔮 Future Roadmap](#-future-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
 
-This project is designed to feel like a personal finance dashboard rather than a basic calculator.
+</details>
 
 ---
 
-## ✨ What Makes It Special
+## 🌟 About the Project
 
 <table>
 <tr>
-<td width="50%">
+<td>
 
-### 🎯 Purpose
-A practical budgeting application for everyday financial planning.
+**Smart Budget Planner** is a modern personal finance dashboard built for people who want to take control of their money — clearly, visually, and confidently.
 
-### 🧠 Experience
-Simple enough for beginners, structured enough for serious planning.
+Most people either guess where their money goes or rely on spreadsheets that become clunky fast. This project bridges that gap with a clean, interactive planning experience.
 
-### 📊 Focus
-Helps users make decisions based on numbers, categories, and trends.
+> 💡 *Think of it as your personal finance co-pilot — structured, visual, and always in your corner.*
+
+**What problem does it solve?**
+- ❌ No more guessing where money disappears each month
+- ❌ No more complicated spreadsheet formulas
+- ✅ Visual, category-based spending overview
+- ✅ Real-time balance tracking against your budget
+- ✅ Savings goals you can actually follow
 
 </td>
-<td width="50%">
+<td width="38%">
 
-### 🎨 Presentation
-Built to support visually clean dashboards and easy reading.
-
-### ⚡ Efficiency
-Designed for quick input, quick analysis, and fast understanding.
-
-### 🛡️ Value
-Encourages responsible spending and financial awareness.
+```
+💰 Monthly Income     ₹50,000
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏠 Housing     ████████░░  ₹15,000
+🍱 Food        █████░░░░░   ₹8,000
+🚗 Transport   ███░░░░░░░   ₹4,000
+📚 Education   ████░░░░░░   ₹6,000
+🎬 Entertain   ██░░░░░░░░   ₹3,000
+💎 Savings     ██████░░░░  ₹10,000
+📦 Others      ███░░░░░░░   ₹4,000
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Remaining          ₹0
+```
 
 </td>
 </tr>
@@ -82,519 +87,389 @@ Encourages responsible spending and financial awareness.
 
 ---
 
-## 🖼️ Visual Preview Section
-
-> Add your screenshots in a folder such as `assets/` or `images/` and replace the file names below.
+## ✨ Key Features
 
 <div align="center">
 
-### Dashboard Overview
-<img src="assets/dashboard.png" alt="Dashboard Overview" width="900"/>
-
-<br/><br/>
-
-### Expense Tracking View
-<img src="assets/expenses.png" alt="Expense Tracking View" width="900"/>
-
-<br/><br/>
-
-### Budget Summary View
-<img src="assets/budget-summary.png" alt="Budget Summary View" width="900"/>
+| 🎯 Feature | 📋 Description | 💡 Why It Matters |
+|:---|:---|:---|
+| **💵 Income Tracking** | Log salary, freelance, and all income sources | Clear starting point for every budget |
+| **📂 Expense Management** | Add, edit, and categorize every transaction | Full visibility into spending habits |
+| **🎛️ Budget Allocation** | Set spending limits per category | Stay disciplined and avoid overspending |
+| **🏦 Savings Goals** | Track progress toward financial targets | Build long-term motivation and discipline |
+| **📊 Spending Insights** | See where money goes via visual breakdowns | Make smarter decisions backed by data |
+| **🖥️ Visual Dashboard** | All data in one clean, organized view | Reduces confusion and improves usability |
+| **⚡ Quick Input** | Fast transaction and budget entry flows | No friction — just capture and move on |
+| **📱 Responsive UI** | Works on desktop, tablet, and mobile | Budget anywhere, anytime |
 
 </div>
 
 ---
 
-## 🧩 Application Flow Diagram
+## 🖼️ Screenshots
 
-```text
-┌──────────────────────┐
-│     User Starts      │
-└─────────┬────────────┘
-          │
-          v
-┌──────────────────────┐
-│  Enter Income Data   │
-└─────────┬────────────┘
-          │
-          v
-┌──────────────────────┐
-│ Create Budget Limits │
-└─────────┬────────────┘
-          │
-          v
-┌──────────────────────┐
-│  Add Expense Entries │
-└─────────┬────────────┘
-          │
-          v
-┌──────────────────────┐
-│ Compare Budget Usage │
-└─────────┬────────────┘
-          │
-          v
-┌──────────────────────┐
-│ View Insights / Save │
-└──────────────────────┘
----
+> 📌 *Replace the placeholder paths below with your actual screenshot files stored in the `assets/` folder.*
 
-## 📌 Core Features
+<div align="center">
 
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Description</th>
-<th>Benefit</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Income Tracking</td>
-<td>Records money coming in from salary, freelance work, or other sources.</td>
-<td>Gives a clear starting point for planning.</td>
-</tr>
-<tr>
-<td>Expense Management</td>
-<td>Adds and organizes spending entries.</td>
-<td>Helps users control daily and monthly spending.</td>
-</tr>
-<tr>
-<td>Budget Allocation</td>
-<td>Assigns budget amounts to categories.</td>
-<td>Makes financial planning structured and disciplined.</td>
-</tr>
-<tr>
-<td>Savings Goals</td>
-<td>Tracks savings progress toward targets.</td>
-<td>Builds long-term financial motivation.</td>
-</tr>
-<tr>
-<td>Spending Insights</td>
-<td>Shows where money is being used most.</td>
-<td>Improves awareness and decision-making.</td>
-</tr>
-<tr>
-<td>Visual Dashboard</td>
-<td>Displays financial data in a cleaner, easier format.</td>
-<td>Reduces confusion and improves usability.</td>
-</tr>
-</tbody>
-</table>
+### 🏠 Dashboard Overview
+<img src="assets/dashboard.png" alt="Dashboard Overview" width="860" style="border-radius:12px; box-shadow: 0 4px 24px rgba(0,0,0,0.15);"/>
+
+<br/><br/>
+
+### 💸 Expense Tracking View
+<img src="assets/expenses.png" alt="Expense Tracking" width="860" style="border-radius:12px;"/>
+
+<br/><br/>
+
+### 📊 Budget Summary View
+<img src="assets/budget-summary.png" alt="Budget Summary" width="860" style="border-radius:12px;"/>
+
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-> Update this section based on your actual implementation.
+<div align="center">
 
-<table>
-<thead>
-<tr>
-<th>Layer</th>
-<th>Technology</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Frontend</td>
-<td>HTML, CSS, JavaScript</td>
-<td>Build the user interface and interactions</td>
-</tr>
-<tr>
-<td>Styling</td>
-<td>Tailwind / Bootstrap / Custom CSS</td>
-<td>Create responsive and attractive layouts</td>
-</tr>
-<tr>
-<td>Charts</td>
-<td>Chart.js / Recharts / ApexCharts</td>
-<td>Visualize spending and budget data</td>
-</tr>
-<tr>
-<td>Storage</td>
-<td>LocalStorage / Firebase / Database</td>
-<td>Save financial records and settings</td>
-</tr>
-<tr>
-<td>Deployment</td>
-<td>GitHub Pages / Vercel / Netlify</td>
-<td>Host the project online</td>
-</tr>
-</tbody>
-</table>
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Styling
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Data Visualization
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+
+### Storage & Deployment
+![LocalStorage](https://img.shields.io/badge/LocalStorage-0ea5e9?style=for-the-badge&logo=databricks&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|:---:|:---:|:---|
+| 🎨 **Frontend** | HTML · CSS · JavaScript | UI structure and interactions |
+| 💅 **Styling** | Tailwind CSS / Bootstrap | Responsive and modern layouts |
+| 📈 **Charts** | Chart.js / ApexCharts | Visualize spending and budgets |
+| 💾 **Storage** | LocalStorage / Firebase | Persist user financial data |
+| ☁️ **Deployment** | GitHub Pages / Vercel | Host and share the application |
+
+</div>
 
 ---
 
-## 🧠 How It Works
+## 🧩 Application Flow
 
-```text
-Income Input
-     ↓
-Budget Setup
-     ↓
-Expense Recording
-     ↓
-Category Analysis
-     ↓
-Goal Progress Check
-     ↓
-Financial Insights
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        USER JOURNEY                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  👤 User Opens App
+         │
+         ▼
+  ┌──────────────────┐     ┌──────────────────┐
+  │  💵 Enter Income  │────▶│  📂 Set Category  │
+  │  (Salary, etc.)  │     │  Budget Limits    │
+  └──────────────────┘     └────────┬─────────┘
+                                    │
+                                    ▼
+                          ┌──────────────────┐
+                          │ 🧾 Add Expenses   │
+                          │ (Daily spends)   │
+                          └────────┬─────────┘
+                                   │
+               ┌───────────────────┼───────────────────┐
+               ▼                   ▼                   ▼
+   ┌─────────────────┐  ┌──────────────────┐  ┌─────────────────┐
+   │ 📊 Compare vs   │  │ 💎 Track Savings  │  │ ⚠️ Spot Budget   │
+   │  Budget Limits  │  │     Progress     │  │   Overruns      │
+   └────────┬────────┘  └────────┬─────────┘  └────────┬────────┘
+            └───────────────────┬┘────────────────────┘
+                                 ▼
+                      ┌──────────────────────┐
+                      │ 💡 Financial Insights │
+                      │  & Summary Report    │
+                      └──────────────────────┘
 ```
 
-### Breakdown
+---
 
-* **Income Input**: user enters available money
-* **Budget Setup**: categories receive spending limits
-* **Expense Recording**: every transaction is added
-* **Category Analysis**: spending is grouped and reviewed
-* **Goal Progress Check**: savings targets are monitored
-* **Financial Insights**: the system shows useful summaries
+## 🧠 Functional Modules
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                    SMART BUDGET PLANNER                       ║
+╠══════════════╦══════════════╦══════════════╦═════════════════╣
+║  💵 INCOME   ║  🎛️ BUDGET   ║  🧾 EXPENSE  ║  📊 REPORTS     ║
+║  MODULE      ║  MODULE      ║  MODULE      ║  MODULE         ║
+╠══════════════╬══════════════╬══════════════╬═════════════════╣
+║ Track all    ║ Assign spend ║ Log daily &  ║ Visual charts,  ║
+║ income       ║ limits per   ║ monthly      ║ summaries &     ║
+║ sources      ║ category     ║ transactions ║ alerts          ║
+╠══════════════╩══════════════╩══════════════╩═════════════════╣
+║                       💎 SAVINGS MODULE                       ║
+║          Monitor goal completion & savings percentage         ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
 
 ---
 
 ## 📁 Project Structure
 
-> Replace this with the exact folder structure from your repository.
-
 ```bash
-Smart-Budget-Planner/
-├── assets/
-│   ├── dashboard.png
-│   ├── expenses.png
-│   └── budget-summary.png
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-├── index.html
-├── README.md
-└── LICENSE
+📦 Smart-Budget-Planner/
+│
+├── 📁 assets/                  # Screenshots & images
+│   ├── 🖼️ dashboard.png
+│   ├── 🖼️ expenses.png
+│   └── 🖼️ budget-summary.png
+│
+├── 📁 css/
+│   └── 🎨 style.css            # Main stylesheet
+│
+├── 📁 js/
+│   └── ⚡ script.js             # Core logic & interactions
+│
+├── 📁 images/                  # Additional visual assets
+│
+├── 🌐 index.html               # App entry point
+├── 📄 README.md                # Project documentation
+└── 📜 LICENSE                  # MIT License
 ```
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-### 1) Clone the repository
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+---
+
+### ⚙️ Installation
+
+**Step 1 — Clone the repository**
 
 ```bash
 git clone https://github.com/RishvinReddy/Smart-Budget-Planner.git
 ```
 
-### 2) Open the project folder
+**Step 2 — Navigate into the folder**
 
 ```bash
 cd Smart-Budget-Planner
 ```
 
-### 3) Run the project
+**Step 3 — Run the project**
 
-#### If it is a simple HTML/CSS/JS project
+<details>
+<summary>🌐 Plain HTML/CSS/JS</summary>
 
-Open `index.html` in your browser.
+```bash
+# Simply open in your browser
+open index.html
+# OR double-click index.html in your file explorer
+```
 
-#### If it uses Node.js
+</details>
+
+<details>
+<summary>⚙️ Node.js Project</summary>
 
 ```bash
 npm install
 npm start
 ```
 
-#### If it uses Vite / React
+</details>
+
+<details>
+<summary>⚡ Vite / React</summary>
 
 ```bash
 npm install
 npm run dev
 ```
 
+</details>
+
 ---
 
 ## 📘 Usage Guide
 
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Action</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Enter your income</td>
-<td>Sets the available money for planning</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Add budget categories</td>
-<td>Organizes expenses into clear groups</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Record spending</td>
-<td>Tracks every transaction</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Review totals</td>
-<td>Shows balance and usage patterns</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Monitor savings</td>
-<td>Helps reach financial targets</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Adjust spending</td>
-<td>Improves future budgeting decisions</td>
-</tr>
-</tbody>
-</table>
+<div align="center">
 
----
-
-## 📊 Example Budget Layout
-
-```text
-Monthly Income          : ₹50,000
-────────────────────────────────────
-Housing                 : ₹15,000
-Food                    : ₹8,000
-Transport               : ₹4,000
-Education               : ₹6,000
-Entertainment           : ₹3,000
-Savings                 : ₹10,000
-Other                   : ₹4,000
-────────────────────────────────────
-Remaining Balance       : ₹0
+```
+  STEP 1          STEP 2          STEP 3          STEP 4          STEP 5          STEP 6
+    │               │               │               │               │               │
+    ▼               ▼               ▼               ▼               ▼               ▼
+┌───────┐       ┌───────┐       ┌───────┐       ┌───────┐       ┌───────┐       ┌───────┐
+│  💵   │       │  📂   │       │  🧾   │       │  📊   │       │  💎   │       │  🔄   │
+│ Enter │──────▶│ Setup │──────▶│ Log   │──────▶│Review │──────▶│Monitor│──────▶│Adjust │
+│Income │       │Budget │       │Spends │       │Totals │       │Savings│       │& Save │
+└───────┘       └───────┘       └───────┘       └───────┘       └───────┘       └───────┘
 ```
 
+</div>
+
+| # | Action | Expected Result |
+|:---:|:---|:---|
+| **1️⃣** | Enter your monthly income | Sets the total available amount for planning |
+| **2️⃣** | Add and name budget categories | Organizes your expenses into clear groups |
+| **3️⃣** | Record each transaction as it happens | Every rupee is tracked and categorized |
+| **4️⃣** | Review totals and category usage | See real-time balance and spending patterns |
+| **5️⃣** | Monitor your savings goal progress | Stay on track toward financial milestones |
+| **6️⃣** | Adjust categories and spending limits | Continuously improve your future budgets |
+
 ---
 
-## 📈 Financial Insight Diagram
+## 📊 Budget Example
 
-```text
-                ┌───────────────────┐
-                │  Total Income     │
-                └─────────┬─────────┘
-                          │
-                          v
-        ┌────────────────────────────────┐
-        │  Budget Categories & Limits    │
-        └─────────┬──────────────────────┘
-                  │
-                  v
-      ┌───────────────────────────────┐
-      │  Record Monthly Expenses      │
-      └─────────┬─────────────────────┘
-                │
-                v
-   ┌─────────────────────────────────────┐
-   │  Compare Planned vs Actual Spend    │
-   └─────────┬───────────────────────────┘
-             │
-             v
-     ┌──────────────────────────────┐
-     │  Savings Progress & Insights │
-     └──────────────────────────────┘
+```
+╔══════════════════════════════════════════════════════╗
+║              💰 MONTHLY BUDGET SNAPSHOT              ║
+╠══════════════════════════════════════════════════════╣
+║  Monthly Income                       ₹50,000        ║
+╠══════════════════════════════════════════════════════╣
+║  🏠 Housing          ██████████░░░░   ₹15,000 (30%) ║
+║  🍱 Food             ████████░░░░░░   ₹ 8,000 (16%) ║
+║  🚗 Transport        ████░░░░░░░░░░   ₹ 4,000  (8%) ║
+║  📚 Education        ██████░░░░░░░░   ₹ 6,000 (12%) ║
+║  🎬 Entertainment    ███░░░░░░░░░░░   ₹ 3,000  (6%) ║
+║  💎 Savings          ████████████░░   ₹10,000 (20%) ║
+║  📦 Others           ████░░░░░░░░░░   ₹ 4,000  (8%) ║
+╠══════════════════════════════════════════════════════╣
+║  ✅ Remaining Balance                 ₹0              ║
+╚══════════════════════════════════════════════════════╝
 ```
 
----
-
-## 🎨 UI/UX Goals
-
-* Clean and modern dashboard layout
-* Easy-to-read numbers and categories
-* Mobile-friendly and responsive interface
-* Minimal clutter with strong visual hierarchy
-* Financial data presented in simple sections
-* Better user experience through fast interaction
+> 💡 *The example follows a modified 50/30/20 rule — 50% needs, 30% wants, 20% savings — adapted for Indian living costs.*
 
 ---
 
-## 🧪 Functional Modules
+## 🔮 Future Roadmap
 
-<table>
-<thead>
-<tr>
-<th>Module</th>
-<th>Responsibility</th>
-<th>Expected Output</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Income Module</td>
-<td>Stores money received</td>
-<td>Total available amount</td>
-</tr>
-<tr>
-<td>Budget Module</td>
-<td>Defines spending limits</td>
-<td>Category-wise budget split</td>
-</tr>
-<tr>
-<td>Expense Module</td>
-<td>Tracks purchases and payments</td>
-<td>Updated expense total</td>
-</tr>
-<tr>
-<td>Report Module</td>
-<td>Generates summaries and insights</td>
-<td>Charts, totals, and alerts</td>
-</tr>
-<tr>
-<td>Savings Module</td>
-<td>Tracks goal completion</td>
-<td>Savings progress percentage</td>
-</tr>
-</tbody>
-</table>
-
----
-
-## 🔮 Future Enhancements
-
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>User authentication</td>
-<td>Allows personal accounts and private budgets</td>
-</tr>
-<tr>
-<td>Cloud sync</td>
-<td>Keeps data available across devices</td>
-</tr>
-<tr>
-<td>PDF export</td>
-<td>Lets users download financial reports</td>
-</tr>
-<tr>
-<td>AI recommendations</td>
-<td>Suggests smarter spending habits</td>
-</tr>
-<tr>
-<td>Recurring expenses</td>
-<td>Tracks repeated bills automatically</td>
-</tr>
-<tr>
-<td>Dark mode</td>
-<td>Improves visual comfort</td>
-</tr>
-<tr>
-<td>Multi-currency support</td>
-<td>Supports international usage</td>
-</tr>
-<tr>
-<td>Advanced analytics</td>
-<td>Shows trends and forecasting</td>
-</tr>
-</tbody>
-</table>
-
----
-
-## 🗺️ Roadmap
-
-```text
-[✓] Basic budget planning
-[✓] Expense tracking
-[✓] Category management
-[✓] Clean dashboard design
-[ ] Interactive charts
-[ ] Exportable reports
-[ ] Cloud-based storage
-[ ] AI budgeting assistant
-[ ] Recurring payment reminders
-[ ] Multi-user support
 ```
+2024 Q1 ─────────────────────────────────────────────────── 2025+
+   │                                                            │
+   ● Basic budget planning          ────────────── ✅ Done      │
+   ● Expense tracking               ────────────── ✅ Done      │
+   ● Category management            ────────────── ✅ Done      │
+   ● Clean dashboard design         ────────────── ✅ Done      │
+   ○ Interactive charts             ────────────── 🔄 In Dev    │
+   ○ Exportable PDF reports         ────────────── 🔜 Planned   │
+   ○ Cloud-based storage            ────────────── 🔜 Planned   │
+   ○ Recurring payment reminders    ────────────── 🔜 Planned   │
+   ○ User authentication            ────────────── 🔜 Planned   │
+   ○ AI budgeting assistant         ────────────── 🔮 Future    │
+   ○ Multi-currency support         ────────────── 🔮 Future    │
+   ○ Advanced analytics & trends    ────────────── 🔮 Future    │
+```
+
+<div align="center">
+
+| 🚀 Enhancement | 🎯 Impact |
+|:---|:---|
+| 🔐 User Authentication | Personal accounts with private, secure budgets |
+| ☁️ Cloud Sync | Access your data seamlessly across all devices |
+| 📄 PDF Export | Download clean monthly financial reports |
+| 🤖 AI Recommendations | Get personalized smart spending suggestions |
+| 🔁 Recurring Expenses | Auto-track subscriptions and monthly bills |
+| 🌙 Dark Mode | Comfortable viewing during night-time sessions |
+| 🌍 Multi-Currency | Support for international users and currencies |
+| 📈 Advanced Analytics | Trend graphs and financial forecasting |
+
+</div>
 
 ---
 
 ## 🤝 Contributing
 
-Contributions make the project stronger and more useful.
-
-### Workflow
-
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Fork the repository</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Create a feature branch</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Make your changes</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Test the project</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Commit and push</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Open a pull request</td>
-</tr>
-</tbody>
-</table>
+Contributions are what make open-source amazing. Every improvement, big or small, is welcome!
 
 ```bash
-git checkout -b feature-name
+# 1. Fork the project on GitHub
+
+# 2. Clone your forked repo
+git clone https://github.com/YOUR_USERNAME/Smart-Budget-Planner.git
+
+# 3. Create your feature branch
+git checkout -b feature/AmazingFeature
+
+# 4. Make your changes and commit
 git add .
-git commit -m "Add new feature"
-git push origin feature-name
+git commit -m "✨ Add: AmazingFeature that does X"
+
+# 5. Push to your branch
+git push origin feature/AmazingFeature
+
+# 6. Open a Pull Request on GitHub 🎉
 ```
+
+### 🧭 Contribution Guidelines
+
+- 🧹 Keep code clean and well-commented
+- 🧪 Test all changes before submitting a PR
+- 📝 Use meaningful commit messages
+- 🙏 Be respectful and constructive in reviews
+- 🐛 For bugs, open an issue before working on a fix
+
+[![Open an Issue](https://img.shields.io/badge/🐛%20Open%20Issue-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishvinReddy/Smart-Budget-Planner/issues)
 
 ---
 
-## 🐛 Issues & Bug Reports
+## 🐛 Bug Reports & Feature Requests
 
-If you find a bug, layout issue, broken feature, or wrong calculation, please open an issue.
+Found something broken? Got a great idea? We'd love to hear it!
 
-<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
-  <img src="https://img.shields.io/badge/Open%20Issue-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+1. Check if the [issue already exists](https://github.com/RishvinReddy/Smart-Budget-Planner/issues)
+2. If not, [open a new issue](https://github.com/RishvinReddy/Smart-Budget-Planner/issues/new)
+3. Include steps to reproduce (for bugs) or a clear description (for features)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-See the `LICENSE` file for full details.
+This project is licensed under the **MIT License** — free to use, modify, and distribute.
+
+```
+MIT License © 2024 Rishvin Reddy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to deal in the Software without restriction...
+```
+
+See the full [`LICENSE`](LICENSE) file for details.
 
 ---
 
 ## 🙏 Acknowledgements
 
-* Inspired by the need for smarter financial planning
-* Built to support everyday expense awareness
-* Thanks to the open-source ecosystem
-* Appreciation to everyone who contributed ideas and feedback
+- 💡 Inspired by the real need for smarter personal financial planning
+- 📦 Built on the shoulders of the amazing open-source ecosystem
+- 🎨 Chart.js, Tailwind CSS, and Firebase communities
+- 🌟 Thanks to everyone who starred, forked, or contributed
 
 ---
 
@@ -602,21 +477,34 @@ See the `LICENSE` file for full details.
 
 <div align="center">
 
-**Rishvin Reddy**
-GitHub: [@RishvinReddy](https://github.com/RishvinReddy)
+<br/>
+
+**👨‍💻 Rishvin Reddy**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishvinReddy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishvinreddy)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rishvinreddy)
+
+<br/>
+
+*💬 Feel free to reach out for collaboration, feedback, or just a chat about fintech!*
 
 </div>
 
 ---
 
-## ⭐ Final Note
-
-If this project helped you or inspired you, consider starring the repository.
-A simple star makes the project more visible and motivates further improvement.
+## ⭐ Show Your Support
 
 <div align="center">
 
-**Made with 💙 for smarter budgeting**
+If **Smart Budget Planner** helped you, inspired you, or saved you from financial chaos — a ⭐ goes a long way!
+
+It boosts visibility, motivates continued development, and helps others discover the project.
+
+**[⭐ Star this repository](https://github.com/RishvinReddy/Smart-Budget-Planner)**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0ea5e9&height=120&section=footer&text=Made%20with%20%F0%9F%92%99%20for%20Smarter%20Budgeting&fontSize=18&fontColor=ffffff&fontAlignY=65" />
 
 </div>
-```
