@@ -1,496 +1,622 @@
-# Smart Budget Planner
+<div align="center">
 
-## Overview
+# 💸 Smart Budget Planner
 
-Smart Budget Planner is a personal finance management application designed to help users track income, monitor expenses, and maintain structured budgets. The system enables individuals to gain clear visibility into their financial behavior and make informed decisions regarding their spending and savings.
+### *Spend with clarity. Save with purpose. Plan with confidence.*
 
-The application provides a centralized platform where users can record income sources, categorize expenses, define monthly budgets, and analyze financial summaries through a structured dashboard.
+A beautifully organized budget planning system designed to help users track income, manage expenses, control overspending, build savings habits, and understand their financial flow at a glance.
 
-The objective of this project is to demonstrate the design and implementation of a lightweight financial planning tool using modern web development technologies. The project integrates backend logic, frontend interfaces, and persistent data storage to deliver a complete full-stack application.
+<br/>
 
-This project serves as a foundational financial management system that can be expanded with advanced capabilities such as financial forecasting, automated insights, and integration with banking APIs.
+![Repo Size](https://img.shields.io/github/repo-size/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+![License](https://img.shields.io/github/license/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
+![Language](https://img.shields.io/github/languages/top/RishvinReddy/Smart-Budget-Planner?style=for-the-badge)
 
----
+<br/>
 
-# Table of Contents
+<a href="https://github.com/RishvinReddy/Smart-Budget-Planner">
+  <img src="https://img.shields.io/badge/View%20Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://your-live-demo-link.com">
+  <img src="https://img.shields.io/badge/Live%20Demo-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
+  <img src="https://img.shields.io/badge/Report%20Bug-ef4444?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
+  <img src="https://img.shields.io/badge/Request%20Feature-22c55e?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-1. Introduction  
-2. Problem Statement  
-3. Objectives  
-4. Key Features  
-5. System Architecture  
-6. Technology Stack  
-7. Application Workflow  
-8. System Modules  
-9. Data Model  
-10. Directory Structure  
-11. Installation and Setup  
-12. Usage Guide  
-13. Algorithmic Flow  
-14. Security Considerations  
-15. Scalability Considerations  
-16. Future Enhancements  
-17. Contribution Guidelines  
-18. License  
-19. Author Information  
+</div>
 
 ---
 
-# 1. Introduction
+## 🌟 Project Vision
 
-Managing personal finances is a fundamental skill that directly impacts financial stability and long-term planning. However, many individuals struggle to track expenses, manage budgets, and analyze spending patterns effectively.
+**Smart Budget Planner** is built for people who want a cleaner, smarter, and more visually understandable way to manage personal finances.
 
-Smart Budget Planner addresses this challenge by providing a digital platform that simplifies financial tracking. The system enables users to record income, categorize expenses, and allocate budgets while automatically generating summaries that reflect their financial standing.
+Instead of guessing where money goes, this project helps users:
+- understand income and expenses clearly,
+- assign spending limits,
+- monitor savings progress,
+- spot unnecessary spending,
+- and improve financial discipline through visual planning.
 
-The application focuses on usability, modular architecture, and extensibility, making it suitable both as a personal finance tool and as an academic software engineering project.
-
----
-
-# 2. Problem Statement
-
-Many individuals do not maintain a structured record of their financial transactions. As a result, they often encounter issues such as:
-
-| Problem | Description |
-|------|-------------|
-| Lack of expense visibility | Users are unaware of where their money is spent |
-| Poor budgeting | Difficulty maintaining monthly financial limits |
-| Financial imbalance | Spending often exceeds income |
-| No financial insights | Lack of analytical summaries to guide decisions |
-
-Traditional methods such as manual notebooks or spreadsheets lack automation and real-time insights.
-
-Smart Budget Planner aims to address these limitations by providing an automated financial tracking system.
+This project is designed to feel like a personal finance dashboard rather than a basic calculator.
 
 ---
 
-# 3. Objectives
+## ✨ What Makes It Special
 
-The primary objectives of this project are:
+<table>
+<tr>
+<td width="50%">
 
-| Objective | Description |
-|---------|-------------|
-| Expense Tracking | Allow users to record and categorize daily expenses |
-| Income Monitoring | Record multiple income sources |
-| Budget Allocation | Define spending limits for categories |
-| Financial Overview | Provide a dashboard displaying financial summaries |
-| Data Organization | Maintain structured storage of financial records |
-| Extensibility | Enable future upgrades such as analytics and forecasting |
+### 🎯 Purpose
+A practical budgeting application for everyday financial planning.
 
----
+### 🧠 Experience
+Simple enough for beginners, structured enough for serious planning.
 
-# 4. Key Features
+### 📊 Focus
+Helps users make decisions based on numbers, categories, and trends.
 
-## Income Management
+</td>
+<td width="50%">
 
-Users can record different sources of income such as salary, freelance payments, or other earnings.
+### 🎨 Presentation
+Built to support visually clean dashboards and easy reading.
 
-| Feature | Description |
-|-------|-------------|
-| Add income | Record income transactions |
-| Categorize income | Identify income sources |
-| Track totals | Monitor total earnings |
+### ⚡ Efficiency
+Designed for quick input, quick analysis, and fast understanding.
 
----
+### 🛡️ Value
+Encourages responsible spending and financial awareness.
 
-## Expense Tracking
-
-The system allows users to record daily expenses and categorize them.
-
-Category examples include:
-
-- Food  
-- Transport  
-- Shopping  
-- Utilities  
-- Entertainment  
-
-Expense tracking helps users identify spending patterns.
+</td>
+</tr>
+</table>
 
 ---
 
-## Budget Management
+## 🖼️ Visual Preview Section
 
-Users can assign spending limits to categories.
+> Add your screenshots in a folder such as `assets/` or `images/` and replace the file names below.
 
-Example:
+<div align="center">
 
-| Category | Monthly Budget |
-|---------|---------------|
-| Food | 5000 |
-| Transport | 2000 |
-| Entertainment | 1500 |
+### Dashboard Overview
+<img src="assets/dashboard.png" alt="Dashboard Overview" width="900"/>
 
-The system compares expenses against budgets to identify overspending.
+<br/><br/>
 
----
+### Expense Tracking View
+<img src="assets/expenses.png" alt="Expense Tracking View" width="900"/>
 
-## Financial Dashboard
+<br/><br/>
 
-The dashboard provides an overview of financial status.
+### Budget Summary View
+<img src="assets/budget-summary.png" alt="Budget Summary View" width="900"/>
 
-| Metric | Description |
-|------|-------------|
-| Total Income | Sum of recorded income |
-| Total Expenses | Sum of recorded expenses |
-| Remaining Balance | Income minus expenses |
-| Budget Usage | Category-wise spending |
+</div>
 
 ---
 
-# 5. System Architecture
+## 🧩 Application Flow Diagram
 
-The application follows a layered architecture.
+```text
+┌──────────────────────┐
+│     User Starts      │
+└─────────┬────────────┘
+          │
+          v
+┌──────────────────────┐
+│  Enter Income Data   │
+└─────────┬────────────┘
+          │
+          v
+┌──────────────────────┐
+│ Create Budget Limits │
+└─────────┬────────────┘
+          │
+          v
+┌──────────────────────┐
+│  Add Expense Entries │
+└─────────┬────────────┘
+          │
+          v
+┌──────────────────────┐
+│ Compare Budget Usage │
+└─────────┬────────────┘
+          │
+          v
+┌──────────────────────┐
+│ View Insights / Save │
+└──────────────────────┘
+---
 
-```
-User Interface
-(HTML / CSS / JavaScript)
+## 📌 Core Features
 
-        |
-
-Application Layer
-(Flask Web Server)
-
-        |
-
-Business Logic
-Income Module
-Expense Module
-Budget Module
-
-        |
-
-Data Storage
-(JSON File System)
-```
-
-Architecture explanation:
-
-| Layer | Function |
-|------|---------|
-| User Interface | Handles interaction with users |
-| Application Layer | Processes requests and routes |
-| Business Logic | Performs financial calculations |
-| Data Storage | Stores financial records |
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Income Tracking</td>
+<td>Records money coming in from salary, freelance work, or other sources.</td>
+<td>Gives a clear starting point for planning.</td>
+</tr>
+<tr>
+<td>Expense Management</td>
+<td>Adds and organizes spending entries.</td>
+<td>Helps users control daily and monthly spending.</td>
+</tr>
+<tr>
+<td>Budget Allocation</td>
+<td>Assigns budget amounts to categories.</td>
+<td>Makes financial planning structured and disciplined.</td>
+</tr>
+<tr>
+<td>Savings Goals</td>
+<td>Tracks savings progress toward targets.</td>
+<td>Builds long-term financial motivation.</td>
+</tr>
+<tr>
+<td>Spending Insights</td>
+<td>Shows where money is being used most.</td>
+<td>Improves awareness and decision-making.</td>
+</tr>
+<tr>
+<td>Visual Dashboard</td>
+<td>Displays financial data in a cleaner, easier format.</td>
+<td>Reduces confusion and improves usability.</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
-# 6. Technology Stack
+## 🛠️ Tech Stack
 
-| Component | Technology |
-|----------|------------|
-| Backend | Python |
-| Framework | Flask |
-| Frontend | HTML |
-| Styling | CSS |
-| Client Interaction | JavaScript |
-| Data Storage | JSON |
-| Version Control | Git |
-| Repository Hosting | GitHub |
+> Update this section based on your actual implementation.
 
----
-
-# 7. Application Workflow
-
-The system workflow describes how the application processes user actions.
-
-```
-User opens application
-
-      |
-
-User enters income or expense
-
-      |
-
-Flask server processes request
-
-      |
-
-Business logic validates data
-
-      |
-
-Data stored in JSON file
-
-      |
-
-Dashboard updated
-
-      |
-
-User views financial summary
-```
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frontend</td>
+<td>HTML, CSS, JavaScript</td>
+<td>Build the user interface and interactions</td>
+</tr>
+<tr>
+<td>Styling</td>
+<td>Tailwind / Bootstrap / Custom CSS</td>
+<td>Create responsive and attractive layouts</td>
+</tr>
+<tr>
+<td>Charts</td>
+<td>Chart.js / Recharts / ApexCharts</td>
+<td>Visualize spending and budget data</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>LocalStorage / Firebase / Database</td>
+<td>Save financial records and settings</td>
+</tr>
+<tr>
+<td>Deployment</td>
+<td>GitHub Pages / Vercel / Netlify</td>
+<td>Host the project online</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
-# 8. System Modules
+## 🧠 How It Works
 
-## Income Module
-
-Handles income transactions.
-
-| Function | Description |
-|--------|-------------|
-| Add Income | Records new income entry |
-| View Income | Displays income history |
-| Calculate Total | Computes total income |
-
----
-
-## Expense Module
-
-Responsible for expense management.
-
-| Function | Description |
-|--------|-------------|
-| Add Expense | Records expense transaction |
-| Category Classification | Assign category to expense |
-| Expense History | Displays recorded expenses |
-
----
-
-## Budget Module
-
-Controls financial limits.
-
-| Function | Description |
-|--------|-------------|
-| Set Budget | Define spending limit |
-| Monitor Budget | Compare expenses with limits |
-| Generate Alerts | Identify overspending |
-
----
-
-# 9. Data Model
-
-Financial data is stored in a JSON file.
-
-Example structure:
-
-```
-{
- "income": [
-   {
-     "source": "Salary",
-     "amount": 50000,
-     "date": "2026-01-01"
-   }
- ],
- "expenses": [
-   {
-     "category": "Food",
-     "amount": 500,
-     "date": "2026-01-02"
-   }
- ],
- "budgets": [
-   {
-     "category": "Food",
-     "limit": 5000
-   }
- ]
-}
+```text
+Income Input
+     ↓
+Budget Setup
+     ↓
+Expense Recording
+     ↓
+Category Analysis
+     ↓
+Goal Progress Check
+     ↓
+Financial Insights
 ```
 
+### Breakdown
+
+* **Income Input**: user enters available money
+* **Budget Setup**: categories receive spending limits
+* **Expense Recording**: every transaction is added
+* **Category Analysis**: spending is grouped and reviewed
+* **Goal Progress Check**: savings targets are monitored
+* **Financial Insights**: the system shows useful summaries
+
 ---
 
-# 10. Directory Structure
+## 📁 Project Structure
 
-```
-Smart-Budget-Planner
-│
-├── app.py
-├── income.py
-├── expense.py
-├── budget.py
-├── utils.py
-│
-├── data
-│   └── finance_data.json
-│
-├── templates
-│   ├── index.html
-│   ├── dashboard.html
-│   ├── add_income.html
-│   └── add_expense.html
-│
-├── static
-│   ├── style.css
+> Replace this with the exact folder structure from your repository.
+
+```bash
+Smart-Budget-Planner/
+├── assets/
+│   ├── dashboard.png
+│   ├── expenses.png
+│   └── budget-summary.png
+├── css/
+│   └── style.css
+├── js/
 │   └── script.js
-│
-├── requirements.txt
-└── README.md
+├── images/
+├── index.html
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# 11. Installation and Setup
+## 🚀 Installation
 
-## Step 1: Clone the repository
+### 1) Clone the repository
 
-```
+```bash
 git clone https://github.com/RishvinReddy/Smart-Budget-Planner.git
 ```
 
-## Step 2: Navigate to project folder
+### 2) Open the project folder
 
-```
+```bash
 cd Smart-Budget-Planner
 ```
 
-## Step 3: Install dependencies
+### 3) Run the project
 
-```
-pip install -r requirements.txt
-```
+#### If it is a simple HTML/CSS/JS project
 
-## Step 4: Run the application
+Open `index.html` in your browser.
 
-```
-python app.py
-```
+#### If it uses Node.js
 
-## Step 5: Open browser
-
-```
-http://127.0.0.1:5000
+```bash
+npm install
+npm start
 ```
 
----
+#### If it uses Vite / React
 
-# 12. Usage Guide
-
-| Step | Action |
-|----|-------|
-| 1 | Open dashboard |
-| 2 | Add income sources |
-| 3 | Record expenses |
-| 4 | Define budget limits |
-| 5 | Monitor financial summary |
-
----
-
-# 13. Algorithmic Flow
-
-## Expense Recording Algorithm
-
-```
-START
-
-Receive expense input
-
-Validate data
-
-Load financial database
-
-Append expense record
-
-Save updated database
-
-Update dashboard metrics
-
-END
+```bash
+npm install
+npm run dev
 ```
 
 ---
 
-## Budget Monitoring Algorithm
+## 📘 Usage Guide
 
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Action</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Enter your income</td>
+<td>Sets the available money for planning</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Add budget categories</td>
+<td>Organizes expenses into clear groups</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Record spending</td>
+<td>Tracks every transaction</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Review totals</td>
+<td>Shows balance and usage patterns</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Monitor savings</td>
+<td>Helps reach financial targets</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Adjust spending</td>
+<td>Improves future budgeting decisions</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+## 📊 Example Budget Layout
+
+```text
+Monthly Income          : ₹50,000
+────────────────────────────────────
+Housing                 : ₹15,000
+Food                    : ₹8,000
+Transport               : ₹4,000
+Education               : ₹6,000
+Entertainment           : ₹3,000
+Savings                 : ₹10,000
+Other                   : ₹4,000
+────────────────────────────────────
+Remaining Balance       : ₹0
 ```
-START
 
-Read expense category
+---
 
-Retrieve budget limit
+## 📈 Financial Insight Diagram
 
-Compare expense with limit
-
-IF expense exceeds limit
-    Display alert
-ELSE
-    Update category spending
-
-END
+```text
+                ┌───────────────────┐
+                │  Total Income     │
+                └─────────┬─────────┘
+                          │
+                          v
+        ┌────────────────────────────────┐
+        │  Budget Categories & Limits    │
+        └─────────┬──────────────────────┘
+                  │
+                  v
+      ┌───────────────────────────────┐
+      │  Record Monthly Expenses      │
+      └─────────┬─────────────────────┘
+                │
+                v
+   ┌─────────────────────────────────────┐
+   │  Compare Planned vs Actual Spend    │
+   └─────────┬───────────────────────────┘
+             │
+             v
+     ┌──────────────────────────────┐
+     │  Savings Progress & Insights │
+     └──────────────────────────────┘
 ```
 
 ---
 
-# 14. Security Considerations
+## 🎨 UI/UX Goals
 
-Although the application is a prototype, the following security practices should be considered in production:
-
-| Security Measure | Purpose |
-|---------------|---------|
-| Input validation | Prevent invalid data |
-| Authentication | Restrict access |
-| Encryption | Protect sensitive data |
-| Secure storage | Prevent unauthorized modification |
+* Clean and modern dashboard layout
+* Easy-to-read numbers and categories
+* Mobile-friendly and responsive interface
+* Minimal clutter with strong visual hierarchy
+* Financial data presented in simple sections
+* Better user experience through fast interaction
 
 ---
 
-# 15. Scalability Considerations
+## 🧪 Functional Modules
 
-The current system uses JSON for storage, which is suitable for small datasets. However, larger applications should migrate to a database system.
-
-Recommended upgrades:
-
-| Component | Suggested Upgrade |
-|----------|------------------|
-| Data Storage | PostgreSQL or MongoDB |
-| Backend Architecture | REST API |
-| Deployment | Docker |
-| Hosting | Cloud infrastructure |
-
----
-
-# 16. Future Enhancements
-
-Several improvements can extend the functionality of the system.
-
-| Enhancement | Description |
-|------------|-------------|
-| Data Visualization | Charts and financial graphs |
-| Financial Forecasting | Predict future spending |
-| Authentication System | Multi-user login |
-| Mobile Compatibility | Responsive design |
-| Cloud Synchronization | Online data storage |
-| AI Insights | Spending recommendations |
-
----
-
-# 17. Contribution Guidelines
-
-Contributions are welcome from developers interested in improving the system.
-
-Contribution steps:
-
-1. Fork the repository  
-2. Create a new branch  
-3. Implement improvements  
-4. Submit a pull request  
-
-Code quality guidelines:
-
-| Guideline | Description |
-|----------|-------------|
-| Readable code | Maintain clear structure |
-| Documentation | Explain functions |
-| Testing | Verify functionality |
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Responsibility</th>
+<th>Expected Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Income Module</td>
+<td>Stores money received</td>
+<td>Total available amount</td>
+</tr>
+<tr>
+<td>Budget Module</td>
+<td>Defines spending limits</td>
+<td>Category-wise budget split</td>
+</tr>
+<tr>
+<td>Expense Module</td>
+<td>Tracks purchases and payments</td>
+<td>Updated expense total</td>
+</tr>
+<tr>
+<td>Report Module</td>
+<td>Generates summaries and insights</td>
+<td>Charts, totals, and alerts</td>
+</tr>
+<tr>
+<td>Savings Module</td>
+<td>Tracks goal completion</td>
+<td>Savings progress percentage</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
-# 18. License
+## 🔮 Future Enhancements
 
-This project is released under the MIT License.
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>User authentication</td>
+<td>Allows personal accounts and private budgets</td>
+</tr>
+<tr>
+<td>Cloud sync</td>
+<td>Keeps data available across devices</td>
+</tr>
+<tr>
+<td>PDF export</td>
+<td>Lets users download financial reports</td>
+</tr>
+<tr>
+<td>AI recommendations</td>
+<td>Suggests smarter spending habits</td>
+</tr>
+<tr>
+<td>Recurring expenses</td>
+<td>Tracks repeated bills automatically</td>
+</tr>
+<tr>
+<td>Dark mode</td>
+<td>Improves visual comfort</td>
+</tr>
+<tr>
+<td>Multi-currency support</td>
+<td>Supports international usage</td>
+</tr>
+<tr>
+<td>Advanced analytics</td>
+<td>Shows trends and forecasting</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
-# 19. Author Information
+## 🗺️ Roadmap
 
-Author:  
-Erolla Rishvin Reddy  
-
-Domain Focus:  
-Financial Technology, Software Engineering, and Intelligent Systems.
+```text
+[✓] Basic budget planning
+[✓] Expense tracking
+[✓] Category management
+[✓] Clean dashboard design
+[ ] Interactive charts
+[ ] Exportable reports
+[ ] Cloud-based storage
+[ ] AI budgeting assistant
+[ ] Recurring payment reminders
+[ ] Multi-user support
+```
 
 ---
+
+## 🤝 Contributing
+
+Contributions make the project stronger and more useful.
+
+### Workflow
+
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Fork the repository</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Create a feature branch</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Make your changes</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Test the project</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Commit and push</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Open a pull request</td>
+</tr>
+</tbody>
+</table>
+
+```bash
+git checkout -b feature-name
+git add .
+git commit -m "Add new feature"
+git push origin feature-name
+```
+
+---
+
+## 🐛 Issues & Bug Reports
+
+If you find a bug, layout issue, broken feature, or wrong calculation, please open an issue.
+
+<a href="https://github.com/RishvinReddy/Smart-Budget-Planner/issues">
+  <img src="https://img.shields.io/badge/Open%20Issue-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for full details.
+
+---
+
+## 🙏 Acknowledgements
+
+* Inspired by the need for smarter financial planning
+* Built to support everyday expense awareness
+* Thanks to the open-source ecosystem
+* Appreciation to everyone who contributed ideas and feedback
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+**Rishvin Reddy**
+GitHub: [@RishvinReddy](https://github.com/RishvinReddy)
+
+</div>
+
+---
+
+## ⭐ Final Note
+
+If this project helped you or inspired you, consider starring the repository.
+A simple star makes the project more visible and motivates further improvement.
+
+<div align="center">
+
+**Made with 💙 for smarter budgeting**
+
+</div>
+```
